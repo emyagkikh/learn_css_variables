@@ -5,28 +5,261 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>CSS Variables</title>
 </head>
-<body>
-<section>
-    <div>
-        <div class="card __mercury">
-            <div class="planet">
-                <div class="p_atmosphere">
-                    <div class="p_surface"></div>
-                </div>
-            </div>
-            <div class="info">
-                <h2 class="i_title">Mercury</h2>
-                <ul class="i_data">
-                    <li class="id_item">
-                        <span class="idi_property">Tilt</span>
-                        <span class="idi_value">0.034</span>
-                    </li>
-                </ul>
-            </div>
+<body class="body">
+<div class="grid">
+    <div class="card">
+        <div class="planet __mercury">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Mercury</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">0.034</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">1047</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">88</span>
+                </li>
+            </ul>
         </div>
     </div>
-</section>
+
+    <div class="card">
+        <div class="planet __venus">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Venus</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">177.3</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">5832</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">224.7</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __earth">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Earth</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">23.26</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">23.9</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">365.2</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __mars">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Mars</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">25.2</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">24.6</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">687</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __jupiter">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Jupiter</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">3.1</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">9.9</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">4331</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __saturn">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Saturn</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">26.7</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">10.7</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">10747</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __uranus">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Uranus</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">97.8</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">17.2</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">30589</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __neptune">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Neptune</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">28.3</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">16.1</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">59800</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __pluto">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Pluto</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">122.5</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">153.3</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">90560</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="planet __sun">
+            <div class="p_axis"></div>
+            <div class="p_surface"></div>
+            <div class="p_atmosphere"></div>
+        </div>
+        <div class="info">
+            <h2 class="i_title">Sun</h2>
+            <ul class="i_data">
+                <li class="id_item">
+                    <span class="idi_property">Tilt</span>
+                    <span class="idi_value __tilt">0</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Day</span>
+                    <span class="idi_value __hours">600</span>
+                </li>
+                <li class="id_item">
+                    <span class="idi_property">Year</span>
+                    <span class="idi_value __days">0</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
 </html>
